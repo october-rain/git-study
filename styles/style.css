@@ -1,0 +1,53 @@
+/* abbr[title="abc"] {
+    cursor: help;
+}
+a[href$="123"] {
+    cursor: help;
+} */
+.para::before {
+    content: "”";
+    font-size: 60px;
+}
+.para p::first-letter {
+    float: left;
+    font-size: 50px;
+}
+q::before {
+    content: "«";
+    color: blue;
+}
+
+q::after {
+    content: "»";
+    color: red;
+}
+a:link {
+    color: blue;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: red;
+}
+a:focus {
+    color: orange;
+}
+a:active {
+    color: black;
+}
+.comment:target {
+    background-color: #fffec4;
+}
+.comment:target:not(.comment-downvoted) {
+    background-color: #fffec4;
+}
+
+.text {
+    width: 50px;
+    height: 0;
+    border-top: 0;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid red;
+    border-left: 100px solid transparent;
+}
