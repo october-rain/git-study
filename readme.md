@@ -1,1 +1,1 @@
-We are going to record some git comands here
+We are going to record some git comands here. 
